@@ -1,0 +1,494 @@
+html { -webkit-font-smoothing: antialiased; }
+/*body {
+	overflow-x: hidden;
+}*/
+.logo path, .logo .cls-3, .logo rect, .logo polygon {
+	
+	fill: rgba(217,217,217,1.00);
+	transition-duration: 0.5s;
+}
+.logo .cls-3 {
+ 	fill: rgba(217,217,217,1.00);
+	transition-duration: 0.5s;
+}
+
+
+/*
+.logo .cls-2, .logo .bulb {
+	fill: rgba(255,255,255,0.00);
+	transition-duration: 0.5s;
+}*/
+
+
+
+.logo:hover path, .logo:hover rect {
+	fill: white;
+	transition-duration: 0.5s;
+}
+
+.logo:hover .st1  {
+	fill: black;
+	transition-duration: 0.5s;
+	transition-delay: 0.2s;
+}
+.logo:hover .cls-3  {
+	fill: #e8442e;
+	transition-duration: 0.5s;
+	transition-delay: 0.2s;
+}
+
+body {
+	height: 100%;
+	background: white;
+}
+
+.fixed-top:hover {
+	background: black;
+	transition-duration: 0.5s;
+}
+.fixed-top {
+	background: transparent;
+	transition-duration: 0.5s;
+}
+
+
+.sidenav {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color: rgba(58,58,58,1.00); /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 0px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+	text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(217,217,217,1.00);
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.logo {
+	margin: 0px;
+	padding: 0px;
+}
+@media screen and (min-width: 768px) {
+.gcol-2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.gcol-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.gcol-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+	.mobile {
+		display: none;
+	}	
+	}
+@media screen and (max-width: 767.98px) {
+	.desktop {
+		display: none;
+	}
+}
+
+.wedo {
+	height: auto;
+	background-color: black;
+	color: white;
+	padding-top: 0px;
+}
+.wedo-white {
+	height: auto;
+	background-color: white;
+}
+.wedo-orange {
+	height: auto;
+	background-color: #e94e1b;
+}
+.wedo-yellow {
+	height: auto;
+	background-color: #f8b742;
+}
+.col {
+	padding-top: 7%;
+	padding: 7%;
+}
+.w-head {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.8rem;
+	padding-bottom: 10px;
+	letter-spacing: 3px;
+	margin-bottom: 40px;
+}
+.w-desc {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+.text-black {
+	color: black;
+}
+@media (min-width: 768px) {
+	.w-desc {
+		max-width: 300px;
+	}
+}
+
+.b-desc {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2.5rem;
+	color: #4d4d4d;
+}
+
+.b-head {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2rem;
+	letter-spacing: 5px;
+}
+.name-tag {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 2rem;
+	letter-spacing: 5px;
+}
+.logo-clg {
+	background-image: url(../img/logo-clg.jpg);
+	background-size: contain;
+	width: 100%;
+	height: 300px;
+		background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	position: relative;
+	background-color: white;
+	}
+@media screen and (max-width: 991.98px) {
+	.b-desc {
+	font-weight: 300;
+	font-size: 1.8rem;
+}
+
+.b-head {
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+
+.name-tag {
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+.logo-clg {
+		height: 200px;
+	}
+}
+@media screen and (max-width: 575.98px) {
+	.b-desc {
+	font-weight: 400;
+	font-size: 1.5rem;
+		
+}
+
+.b-head {
+	font-weight: 300;
+	font-size: 1rem;
+	
+}
+	.w-head {
+		text-align: center;
+	}
+	.w-desc {
+		text-align: center;
+	}
+.name-tag {
+	font-weight: 500;
+	font-size: 1rem;
+	text-decoration: none;
+}
+	.logo-clg {
+		height: 100px;
+	}
+}
+.portfolio-parent {
+	padding: 0px;
+	min-height: 250px;
+	width: 100%;
+	overflow: hidden;
+	   position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+@media (max-width: 767.98px) {
+	.portfolio-parent {
+		height: 250px;
+	}
+}
+.znacka-img {
+	background-image: url(../img/sketch-mockup.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+.identita-img {
+	background-image: url(../img/branding.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+.medulienky-img {
+	background-image: url(../img/medulienky.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	
+}
+.portfolio-img:hover {
+	transform: scale(1.2);
+	transition-duration: .4s;
+}
+
+.portfolio-img {
+	transition-duration: .4s;
+	height: 100%;
+	
+}
+.portfolio-img::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.0);
+	transition-duration: .4s;
+	z-index: 0;
+}
+.portfolio-img > * {
+    position:relative;
+    z-index:2;
+}
+
+.portfolio-parent:hover .portfolio-img:before,
+.portfolio-parent:focus .portfolio-img:before {
+  background-color: rgba(255,255,255,0.75);
+	transition-duration: .4s;
+}
+.portfolio-text, .portfolio-under {
+  color: rgba(255,255,255,0.00);
+    text-align: center;
+    margin: auto;
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+	transition-duration: .4s;
+	z-index: 1;
+}
+.portfolio-under {
+	padding-top: 50px;
+	font-size: .8rem;
+}
+.portfolio-text::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+	margin-left: 50%;
+	margin-right: 50%;
+  background-color: rgba(255,255,255,0.0);
+	transition-duration: .4s;
+	z-index: 0;
+	border-bottom: 1px solid black;
+}
+.portfolio-img:hover .portfolio-text::after, 
+.portfolio-img:focus .portfolio-text::after {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.portfolio-img:hover .portfolio-text, 
+.portfolio-img:focus .portfolio-text,	
+.portfolio-img:hover .portfolio-under,	
+.portfolio-img:focus .portfolio-under	{
+	color: black;
+	display: block;
+	transition-duration: .4s;
+}
+.prof-choose {
+	cursor: pointer;
+}
+@media (max-width: 776.98px) {
+	.prof-choose-parent {
+	min-height: 500px;
+}
+
+}
+.prof-choose::after {
+  content: "";
+  display: block;
+  height: 0%;
+	margin-top: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0);
+	transition-duration: .4s;
+	z-index: 0;
+	border-bottom: 2px solid;
+	border-left: 2px solid;
+	border-color: rgba(255,255,255,0);
+}
+.prof-choose::before {
+  content: "";
+  display: block;
+  height: 0%;
+	margin-top: 0%;
+	margin-left: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0);
+	transition-duration: .4s;
+	z-index: 0;
+	border-top: 2px solid;
+	border-right: 2px solid;
+	border-color: rgba(255,255,255,0);
+}
+
+.prof-choose-parent:hover .prof-choose::after,
+.prof-choose-parent:focus .prof-choose::after{
+	transition-duration: .4s;
+	width: 20%;
+	height: 60%;
+	margin-top: 40%;
+	display: block;
+	border-color: rgba(0,0,0,1);
+}
+.prof-choose-parent:hover .prof-choose::before,
+.prof-choose-parent:focus .prof-choose::before{
+	transition-duration: .4s;
+	width: 20%;
+	height: 60%;
+	margin-top: 0%;
+	margin-left: 80%;
+	display: block;
+	border-color: rgba(0,0,0,1);
+}
+/*.underline::after {
+  content: "";
+  display: block;
+  height: 80%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+	margin-left: 50%;
+	margin-right: 50%;
+  background-color: rgba(255,255,255,0.0);
+	transition-duration: .4s;
+	z-index: 0;
+	border-bottom: 1px solid black;
+}
+.prof-choose-parent:hover .underline::after, 
+.prof-choose-parent:focus .underline::after {
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}*/
+.container {
+	padding-bottom: 15%;
+}
+.name {
+	padding-bottom: 40px;
+}
+.prof-pic {
+	min-height: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+.prof-pic::after {
+	content: "";
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background-image: url(../img/silady/profile.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	position: absolute;
+	z-index: 1;
+	width: 150%;
+	height: 100%;	
+}
+@media (max-width: 767.98px){
+	.prof-pic::after {
+		max-width: 80%;
+		min-height: 150px;
+		max-height: 300px;
+		position: static;
+		display: block;
+	}
+	
+	.name {
+		padding-top: 40px;
+	}
+	
+}
+.bot-border {
+			border-bottom: 2px solid white;
+	}
